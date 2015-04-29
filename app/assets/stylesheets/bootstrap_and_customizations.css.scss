@@ -70,7 +70,8 @@ a:hover {
 
 #shows {
 	overflow-y: scroll;
-	height: 320px;
+	-webkit-overflow-scrolling: touch;
+	height: 315px;
 }
 
 .video-responsive {
