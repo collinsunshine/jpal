@@ -1,0 +1,49 @@
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+@import 'bootstrap';
+
+$font-family-serif:					'Didot', 'Baskerville', 'Garamond', serif;
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	width: 100%;
+	overflow: hidden;
+}
+
+body#background {
+	background: image-url('bwlandscape.jpg') no-repeat 50% 50% fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+p {
+	font-family: 'didot';
+	color: white;
+}
+
+h3 {
+	font-family: 'didot';
+	color: white;
+}
+
+#jakescript {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.jpal {
+	margin-right: 35px;
+}
+
+.blurb {
+	max-width: 450px;
+}
+
+#img {
+	display: inline-block;
+}
