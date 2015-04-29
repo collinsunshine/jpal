@@ -31,9 +31,27 @@ h3 {
 	color: white;
 }
 
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
 #jakescript {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 10px;
+}
+
+#social {
+	margin-bottom: 0px;
+}
+
+.box {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .jpal {
@@ -46,4 +64,23 @@ h3 {
 
 #img {
 	display: inline-block;
+}
+
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.video-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#about {
+	margin-bottom: 10px;
 }
