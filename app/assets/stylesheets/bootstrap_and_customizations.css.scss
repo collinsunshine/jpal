@@ -68,6 +68,11 @@ a:hover {
 	display: inline-block;
 }
 
+#shows {
+	overflow-y: scroll;
+	height: 320px;
+}
+
 .video-responsive {
 	overflow: hidden;
 	padding-bottom: 56.25%;
