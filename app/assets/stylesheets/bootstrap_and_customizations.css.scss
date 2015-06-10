@@ -14,7 +14,7 @@ body {
 }
 
 body#background {
-	background: image-url('bwlandscape.jpg') no-repeat 50% 50% fixed;
+	background: image-url('background.png') no-repeat 50% 50% fixed;
 	background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -24,6 +24,10 @@ body#background {
 p {
 	font-family: 'didot';
 	color: white;
+}
+
+p.links {
+	font-size: 90%;
 }
 
 h3 {
