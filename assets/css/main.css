@@ -1,24 +1,20 @@
-@import 'font-awesome-sprockets';
-@import 'font-awesome';
-@import 'bootstrap';
-
-$font-family-serif:					'Didot', 'Baskerville', 'Garamond', serif;
-
 html {
 	overflow-y: scroll;
+	background-image: url('assets/img/background.png') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 }
 
 body {
 	width: 100%;
 	overflow: hidden;
+	font-family: 'Didot', 'Baskerville', 'Garamond', serif;
 }
 
 body#background {
-	background: image-url('background.png') no-repeat 50% 50% fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
+
 }
 
 p {
